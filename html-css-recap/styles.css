@@ -125,6 +125,10 @@ footer ul {
     padding: 10px;
 }
 
+.footer-heading:hover{
+    color: rgb(121, 217, 207); ;
+}
+
 
 /* challenge
     - add appropriate styles to the projects section
