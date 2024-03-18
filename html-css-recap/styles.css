@@ -103,6 +103,29 @@ p {
     font-family: "Poppins";
 }
 
+footer h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    text-decoration: none;
+}
+
+footer ul {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.footer-heading {
+    text-decoration: none;
+    font-family: Poppins;
+    color: #555;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 10px;
+}
+
+
 /* challenge
     - add appropriate styles to the projects section
     - add fonts to our page (link)
