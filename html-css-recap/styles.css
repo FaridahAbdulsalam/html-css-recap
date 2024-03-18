@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,400;0,800;1,400;1,800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*includes border within set width*/
+}
+
+header{
+    background-color: #333;
+    color: grey;
+    padding: 20px;
+}
+
+h1 {
+    font-family:"Abril Fatface" ;
+}
+
+nav ul{
+    list-style-type: none;
+    background-color: #333;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    font-family: "Poppins";
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+.about {
+    font-family: "Abril Fatface";
+    font-size: 28px;
+    font-weight: 200;
+    margin-left: 10px;
+}
+
+.about:active {
+    color: green;
+}
+
+.highlight {
+    color: rgb(96, 208, 225);
+    margin-left: 10px;
+}
+
+.skills:hover {
+    color: black;
+}
+
+#projects {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 30px;
+    border: solid 2px;
+    border-radius: 5px;
+}
+
+#project-title {
+ padding: 10px;
+ font-size:30px;
+ font-family:"Abril Fatface" ;
+}
+
+.project {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+h3 {
+    font-size: 18px;
+    font-family: "Poppins";
+    text-decoration: underline;
+    font-weight: 200;
+    padding: 10px;
+    color: rgb(121, 217, 207);
+}
+
+img {
+    border-radius: 10px;
+    margin: 10px;
+    opacity: 0.4;
+}
+
+img:hover {
+    opacity: 1;
+    transition: 1s;
+}
+
+p {
+    font-family: "Poppins";
+}
+
+/* challenge
+    - add appropriate styles to the projects section
+    - add fonts to our page (link)
+*/
